@@ -1,0 +1,25 @@
+## Application configuration file Changeln
+## Version config: 0.0.2
+
+## Comment tags by which they will be searched
+## and groups by which they will be analyzed.
+commits:
+  Bug: '[shared_preferences_aurora][bug]'
+  Change: '[shared_preferences_aurora][change]'
+  Feature: '[shared_preferences_aurora][feature]'
+
+## Path to mako template
+template: ../../../.changeln/changeln.mako
+
+## Regular expression to break the comment into groups
+## to format the comment output in the changelog in the 
+## "regex" variable.
+##
+## The empty value is not used.
+parse: ''
+
+## Filter tags using regular expressions
+##
+## The empty value is not used.
+filter: '^((?!shared_preferences_aurora).)*$'
+

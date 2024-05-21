@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Shared preferences
+Comment=The Aurora OS example of shared_preferences_aurora.
+Icon=ru.auroraos.shared_preferences_aurora_example
+Exec=/usr/bin/ru.auroraos.shared_preferences_aurora_example
+X-Nemo-Application-Type=silica-qt5
+
+[X-Application]
+Permissions=
+OrganizationName=ru.auroraos
+ApplicationName=shared_preferences_aurora_example

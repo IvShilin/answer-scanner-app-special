@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: Copyright 2024 Open Mobile Platform LLC <community@omp.ru>
+# SPDX-License-Identifier: BSD-3-Clause
+name: shared_preferences_aurora_example
+description: "The Aurora OS example of shared_preferences_aurora."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  shared_preferences_aurora:
+    path: ../
