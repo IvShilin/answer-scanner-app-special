@@ -1,6 +1,6 @@
 # aurora_build
 
-A new Flutter project.
+Специльная версия дли сборки под Aurora OS
 
 ## Getting Started
 
